@@ -127,7 +127,7 @@ class App extends React.Component {
         <Draggable grid={[50, 50]} {...dragHandlers}>
           <div className="box">I snap to a 50 x 50 grid</div>
         </Draggable>
-        <Draggable bounds={{top: -100, left: -100, right: 100, bottom: 100}} {...dragHandlers}>
+        <Draggable bounds={{top: -10,bottom: 10}} {...dragHandlers}>
           <div className="box">I can only be moved 100px in any direction.</div>
         </Draggable>
         <Draggable {...dragHandlers}>
